@@ -1,0 +1,170 @@
+body {
+     font-family: 'Lato', sans-serif;
+     color: #F4F1EA;
+  
+}
+p{
+    margin: 0;
+    overflow-wrap: break-word;
+    font-family: "Lato";
+    font-weight: 300;
+    color: #F4F1EA; 
+    padding: 10px 50px 10px 0;}
+}
+
+.nav-pills .nav-link.active{
+    color: #4C4F56;
+    font-weight: 700;
+    background: #FFC94A;
+    
+}
+
+
+.cat-name {
+text-transform: uppercase;
+margin: 0;
+font-weight: 200;
+font-size: 1.3em;
+letter-spacing: 0.1em;
+font-family: "Montserrat";
+
+}
+.p-name{
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.p-name:hover {
+    text-decoration: underline;
+}
+a {
+    color: #F4F1EA;
+    margin: 0 20px;
+}
+
+a:hover {
+    color: #FFC94A;
+    
+}
+.menu {
+    background-color: #4C4F56;
+    padding: 10px 10px 10px 10px;
+    
+    
+}
+.dark {
+    background: #4C4F56;
+    color: #F4F1EA;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    padding: 30px 60px;
+    font-size: 12px;
+}
+
+
+.klaun{margin: 0px 50px}
+
+
+
+}
+
+/*animation flash*/
+.blink-1 {
+	-webkit-animation: blink-1 0.9s ease-in 0.5s both;
+	        animation: blink-1 0.9s ease-in 0.5s both;
+}
+
+/**
+ * ----------------------------------------
+ * animation blink-1
+ * ----------------------------------------
+ */
+@-webkit-keyframes blink-1 {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+@keyframes blink-1 {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+
+/* end animation flash*/
+
+.letters {
+    margin: 20px 30px;
+}
+
+.name{
+    font-size: 18px;
+    margin: 25px 0px; 
+}
+
+h3{
+    font-size: 18px;
+    margin: 25px 0px; 
+}
+
+.navig {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font: #FFC94A;
+    height: 40px;
+    }
+
+#link {
+    
+    color: #FFC94A;
+}
+.m-item{
+    font-family: 'Montserrat', sans-serif;
+    color: #F4F1EA;
+    margin: 15px;
+}
+
+.m-item:hover {
+    color: #FFC94A;
+}
+
+.sec-name {
+    color:  #F4F1EA;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #F4F1EA;
+    text-align: center;
+}
+
+
+@keyframes flash {
+    
+    
+}
+
+.galeria {
+    background-color: #F4F1EA;
+    color: #4C4F56;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;}
+
+.vert-nav-gal{
+    height: 500px;
+    border-right: 1px solid #4C4F56;
+    border-left: 100px;
+}
+

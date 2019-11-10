@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+     {% load static %}
+
+
+ {% for gallery in object_list %}
+                      <h4><a href="{% url 'gallery:gallery-detail'  gallery.pk  %}">{{ gallery.gallery_name }}</a></h4>
+
+{{ gallery.gallery_name }}
+
+{% endfor %}
+
+{% endblock %}
+
+
+
+

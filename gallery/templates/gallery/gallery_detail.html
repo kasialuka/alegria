@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+     {% load static %}
+
+
+ {% for image in object_list %}
+{{ image}}
+
+
+{{ gallery.gallery_name }}
+
+{% endfor %}
+
+{% endblock %}
+
+
+
+
